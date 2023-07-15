@@ -1,0 +1,42 @@
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\UAS\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+C:\Users\ACER\Music\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+D:\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+D:\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+D:\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+D:\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb
+D:\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+D:\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+D:\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+D:\transit\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+D:\transit\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+D:\transit\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+D:\transit\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb
+D:\transit\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+D:\transit\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+D:\transit\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+C:\Users\ACER\Desktop\uas final\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\bin\tokoku.dll.config
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\bin\tokoku.dll
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\bin\tokoku.pdb
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.dll
+C:\Users\ACER\Desktop\UAS_GENAP_2022_2203040158_C1\UAS2203040158\tokoku\tokoku\obj\Debug\tokoku.pdb

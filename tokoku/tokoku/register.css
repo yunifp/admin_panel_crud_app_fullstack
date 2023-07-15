@@ -1,0 +1,409 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    list-style: none;
+}
+
+
+:root {
+    --secondary: #bfc0c0;
+    --step: #ff6e2a;
+    --step2: rgb(196, 72, 18);
+    --back-btn-hover: #8b8c8c;
+    --white: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+
+
+/* VARIABLE GANTI TEMA */
+.dark {
+    --secondary: #bfc0c0;
+    --step: #ff2a7c;
+    --step2: rgb(196, 18, 131);
+    --back-btn-hover: #8b8c8c;
+    --white: #fff;
+}
+
+.background {
+    background: url(bg1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(10px);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 13%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-top: 10px;
+}
+
+.header .navbar a {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+    .navbar a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--step);
+        bottom: -5px;
+        border-radius: 5px;
+        transform: translateY(10px);
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+
+    .navbar a:hover:after {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+
+    .navbar a:hover {
+        color: var(--step);
+    }
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    height: 550px;
+    margin-top: 20px;
+    background: url(bg1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    .container:hover {
+        box-shadow: -8px -8px 18px rgba(255, 255, 255,0.1), 8px 8px 18px rgba(0,0,0,0.35), inset -8px -8px 18px rgba(255, 255, 255,0.1), inset 8px 8px 18px rgba(0,0,0,0.35);
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+    }
+
+.item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+    .item .logo {
+        color: #fff;
+        font-size: 30px;
+    }
+
+.text-item h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.text-item h1 {
+    color: var(--step);
+    font-size: 40px;
+}
+
+.text-item p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+    .text-item p span {
+        color: var(--step);
+    }
+
+.social-icon a i {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.social-icon a:hover i {
+    transform: scale(1.2);
+    color: var(--step);
+}
+
+.container .login-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100%;
+    color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.login-section {
+    padding: 40px;
+}
+
+    .login-section .header {
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+        .login-section .header ul {
+            display: flex;
+        }
+
+            .login-section .header ul li {
+                position: relative;
+                margin-right: 110px;
+            }
+
+                .login-section .header ul li:last-child {
+                    margin-right: 0;
+                }
+
+                .login-section .header ul li:before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 25px;
+                    width: 8.2rem;
+                    height: 2px;
+                    background: var(--secondary);
+                }
+
+                .login-section .header ul li:last-child:before {
+                    display: none;
+                }
+
+                .login-section .header ul li div {
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+
+                .login-section .header ul li p {
+                    width: 30px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    height: 30px;
+                    color: var(--step);
+                    background: var(--secondary);
+                    text-align: center;
+                    line-height: 30px;
+                    border-radius: 10%;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                    -webkit-border-radius: 10%;
+                    -moz-border-radius: 10%;
+                    -ms-border-radius: 10%;
+                    -o-border-radius: 10%;
+                }
+
+                .login-section .header ul li.active:before,
+                .login-section .header ul li.active p {
+                    background: var(--step);
+                    color: var(--secondary);
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                }
+
+    .login-section .form_wrap {
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+
+
+        .login-section .form_wrap h2 {
+            color: var(--white);
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .login-section .form_wrap .input_wrap {
+            width: 350px;
+            max-width: 100%;
+            margin: 0 auto 20px;
+            color: var(--step);
+        }
+
+            .login-section .form_wrap .input_wrap:last-child {
+                margin-bottom: 0;
+            }
+
+
+            .login-section .form_wrap .input_wrap label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .login-section .form_wrap .input_wrap input {
+                padding: 12px 10px 12px 25px;
+                border: none;
+                width: 100%;
+                background: #efebeb;
+                font-weight: 300;
+                border-radius: 25px;
+                font-size: 1em;
+                transition: 0.5s;
+                outline: none;
+            }
+
+
+
+                .login-section .form_wrap .input_wrap input:focus {
+                    background: #b6b4b4;
+                    box-shadow: -2px -2px 7px var(--shadow), 2px 2px 7px var(--shadow);
+                }
+
+
+.dont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 15px;
+    padding-top: 0;
+}
+
+    .dont a {
+        color: var(--step);
+        margin-bottom:15px;
+    }
+
+
+        .dont a:hover {
+            color: var(--secondary);
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+        }
+
+
+.login-section .btns_wrap {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+    .login-section .btns_wrap .common_btns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .login-section .btns_wrap .common_btns.form_1_btns {
+            justify-content: flex-end;
+        }
+
+        .login-section .btns_wrap .common_btns button {
+            border: 0;
+            padding: 12px 15px;
+            background: var(--step);
+            color: var(--white);
+            width: 135px;
+            display: flex;
+            font-weight: 500;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: 0.5 ease;
+            cursor: pointer;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+        }
+
+            .login-section .btns_wrap .common_btns button.btn_back {
+                background: var(--secondary);
+            }
+
+            .login-section .btns_wrap .common_btns button.btn_next:hover,
+            .login-section .btns_wrap .common_btns button.btn_done:hover {
+                background: var(--step2);
+            }
+
+            .login-section .btns_wrap .common_btns button.btn_back:hover {
+                background: var(--back-btn-hover);
+            }
+
+.doneee {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.common_btns .btn {
+    border: 0;
+    padding: 12px 15px;
+    background: var(--step);
+    color: var(--white);
+    width: 135px;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: 0.5 ease;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
